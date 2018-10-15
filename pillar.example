@@ -1,6 +1,8 @@
 barman:
   log_level: INFO
   compression: gzip
+  # Use Debian PGDG repository
+  use_upstream_repo: True 
   hosts:
     pgsql1:
       description: "Example of PostgreSQL Database (Streaming-Only)"
